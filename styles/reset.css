@@ -1,0 +1,63 @@
+/* Reset all elements to have no margin, padding, and border */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/* Set all text to be consistent */
+body {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+}
+
+/* Remove the default list styling */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove underline from links */
+a {
+  text-decoration: none;
+}
+
+/* Set images and media elements to be responsive */
+img, picture, video, iframe, object, embed {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove default form styling */
+button, input, select, textarea {
+  background: transparent;
+  border: none;
+  outline: none;
+  font: inherit;
+}
+
+/* Reset table layout */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Reset block elements */
+article, aside, figure, footer, header, nav, section {
+  display: block;
+}
+
+/* Prevent extra space in code blocks */
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Remove default quotes */
+q {
+  quotes: none;
+}

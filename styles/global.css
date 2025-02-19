@@ -1,0 +1,46 @@
+:root {
+    /* COLORS */
+
+    /* Pink */
+    --pink-light: #C59DD2;
+    --pink-base: #9547A5;
+    --pink-dark: #7D298A;
+    --pink-low: #3F0F41;
+
+    /* Blue */
+    --blue-light: #73BCD2;
+    --blue-base: #358BB9;
+    --blue-mid: #2374A4;
+    --blue-dark: #144A72;
+    --blue-low: #08233C;
+
+    /* shape */
+    --shape-stroke: #002347;
+    --shape-hover: #001933;
+    --shape-base: #000F1F;
+    --shape-background: #00050A;
+
+    /* text */
+    --text-title: #F8FBFB;
+    --text-body: #E2E7E9;
+    --text-label: #BAC6C9;
+
+    /* TYPOGRAPHY */
+    --ff-raleway: font-family: "Raleway", serif;
+
+    --title-lg: 700 3rem/normal var(--ff-raleway);
+    --title-md: 700 2.5rem/normal var(--ff-raleway);
+    --title-sm: 700 2rem/normal var(--ff-raleway);
+    --title-xs: 700 1rem/normal var(--ff-raleway);
+    
+    --subtitle: 500  2rem/2.0 var(--ff-raleway);
+
+    --body-lg: 400 1.25rem/1.4 var(--ff-raleway);
+    --body-md: 400 1rem/1.4 var(--ff-raleway);
+    --body-sm: 400 0.875rem/1.4 var(--ff-raleway);
+    --body-xs: 400 0.75rem/1.4 var(--ff-raleway);
+    
+    --button: 700 0.875rem/normal var(--ff-raleway);
+    --link: 400 0.875rem/normal var(--ff-raleway);
+    --tag:  700 0.625rem/normal var(--ff-raleway);
+}
