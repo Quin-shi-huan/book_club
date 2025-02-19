@@ -26,7 +26,7 @@
     --text-label: #BAC6C9;
 
     /* TYPOGRAPHY */
-    --ff-raleway: font-family: "Raleway", serif;
+    --ff-raleway: "Raleway", serif;
 
     --title-lg: 700 3rem/normal var(--ff-raleway);
     --title-md: 700 2.5rem/normal var(--ff-raleway);
@@ -43,4 +43,9 @@
     --button: 700 0.875rem/normal var(--ff-raleway);
     --link: 400 0.875rem/normal var(--ff-raleway);
     --tag:  700 0.625rem/normal var(--ff-raleway);
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--shape-background);
 }
