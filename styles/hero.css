@@ -94,3 +94,55 @@
         opacity: 1;
     }
 }
+
+.animated_content {
+    margin-block-start: 35rem;
+    position: relative;
+    
+    & img {
+        width: 5rem;
+        height: 5rem;
+   }
+
+    img:nth-child(2) {
+        transform: rotate(100deg);
+        position: absolute;
+        left: 10%;
+        top: 110%;
+
+
+        margin-inline-start: 0.625rem;
+    }
+
+    img:nth-child(3) {
+        transform: rotate(20deg);
+        position: absolute;
+        left: 46%;
+        bottom: 100%;
+
+    }
+
+    img:nth-child(4) {
+        transform: rotate(-15deg);
+        position: absolute;
+        left: 85%;
+        top: 100%;
+
+        margin-block-start: 0.625rem;
+    }
+
+    & p {
+        font: var(--subtitle);
+        color: #c7c7c7;
+        opacity: 0.5;
+        text-align: center;
+        transition: color 0.3s ease, opacity 0.3s ease;
+
+        & span {
+            color: #c7c7c7;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+    }
+
+}
